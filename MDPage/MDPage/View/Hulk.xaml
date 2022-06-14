@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.Hulk">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Халк"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="hk.jpg"></Image>
+            <Label FontSize="15" Text="Доктор Роберт Брюс Беннер — известный ученый в области биохимии, ядерной физики и гамма-излучения. После неудачного эксперимента по воссозданию сыворотки Супер-солдата с высоким уровнем гамма-излучения, Брюс мутировал в огромного разрушительного и почти безмозглого монстра с зелёной кожей, известного как Халк ">
+                
+            </Label>
+            <Button Text="Подробнее..." x:Name="hulkBut" Clicked="hulkBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

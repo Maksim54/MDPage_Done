@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.Deadpool">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Дедпул"
+            HorizontalOptions="CenterAndExpand" />
+            <Image Source="dp.jpeg"></Image>
+            <Label FontSize="15" Text="Настоящее имя Дэдпула – Уэйд Уилсон, что является отсылкой к Слейду Уилсону, Дэфстроуку (Deathstroke) из комиксов DC. Да, изначально Уэйд и задумывался, как «Дэфстроук от Марвел», только со временем он развился в совершенно отдельного персонажа. Главная его способность – убийственная болтливость, которой он доводит до бешенства как врагов, так и союзников. Он полный псих, разговаривает с внутренним голосом, осознаёт, что находится в комиксе и сыплет шутками и отсылками.">
+                
+            </Label>
+            <Button Text="Подробнее..." x:Name="deadBut" Clicked="deadBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

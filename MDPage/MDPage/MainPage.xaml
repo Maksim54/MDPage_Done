@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.MainPage">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" Padding="15">
+            <ContentPage.Content>
+                <StackLayout Margin="10" Orientation="Vertical">
+                    <Image x:Name="profileImage"></Image>
+                    <ListView x:Name="aboutList" ItemSelected="aboutList_ItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ImageCell Text="{Binding Text}" Detail="{Binding Detail}" ImageSource="{Binding ImagePath}">
+                                </ImageCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage Title="Content" Padding="15">
+            <ContentPage.Content>
+                <StackLayout Margin="15">
+                    <Label Text="Content Page Elemendid"></Label>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.SpiderMan">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Человек-Паук"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="spider.jpg"></Image>
+            <Label FontSize="15" Text="Укус облученного паука наделил студента Питера Паркера невероятными силами паукообразного. Когда ночной грабитель убил его любимого дядю Бена, Питер, убитый горем, дал клятву использовать свои удивительные способности, чтобы защищать близких. Он понял один бесценный урок: с великой силой приходит великая ответственность!">
+            </Label>
+            <Button Text="Подробнее..." x:Name="smBut" Clicked="smBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

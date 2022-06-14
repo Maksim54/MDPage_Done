@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.Wolverine">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Росомаха"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="wv.jpg"></Image>
+            <Label Text="Джеймс Хоулетт (англ. James Howlett), лучше известный как Росомаха (англ. Wolverine) — мутант родом из Канада и член Людей Икс. Его прошлое было окутано правительственными секретами, травматическими событиями и гибелью невинных людей. Практически ничего не помня, он обратился за помощью к профессору Чарльзу Ксавьеру. Таким образом, Росомаха стал бороться за мутантов. Хоулетт обладает невероятным регенерирующим фактором, а его оружие — это когти, покрытые сверхпрочным металлом адамантиумом." FontSize="15"></Label>
+            <Button Text="Подробнее..." x:Name="wolBut" Clicked="wolBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

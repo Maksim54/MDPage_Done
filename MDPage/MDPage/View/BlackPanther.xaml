@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.BlackPanther">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Чёрная пантера" 
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="bp.jpg"></Image>
+            <Label Text="Т'Чалла (англ. T'Challa) — Чёрная пантера (англ. Black Panther), король Ваканды, одной из самых технологически продвинутых наций на Земле. Он входит в пятерку лучших умов человечества, ветеран Мститель и член Иллюминатов. Используя свои силы и способности, он пообещал служить на благо человечества."
+                   FontSize="15"></Label>
+            <Button Text="Подробнее..." x:Name="bpBut" Clicked="bpBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

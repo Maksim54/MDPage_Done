@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.BlackWidow">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Чёрная Вдова"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="bw.jpg"></Image>
+            <Label FontSize="15" Text="Чёрная вдова (англ. Black Widow) — одна из лучших шпионов и профессиональных убийц в мире. Первоначально работала на советскую службу разведки, КГБ, но позже стала агентом Щ.И.Т.">
+                
+            </Label>
+            <Button Text="Подробнее..." x:Name="bwBut" Clicked="bwBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

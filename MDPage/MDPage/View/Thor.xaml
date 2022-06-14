@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MDPage.View.Thor">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Тор"
+                HorizontalOptions="CenterAndExpand" />
+            <Image Source="tr.jpg"></Image>
+            <Label FontSize="15" Text="Тор Одинсон (англ. Thor Odinson) - нынешний король и бывший принц Асгарда, член команды Мстителей и Бог Грома. Когда его безответственные действия повлекли за собой угрозу его родному миру, Тор был лишен своих сил и изгнан на Землю своим отцом Одином, царем Асгарда. Будучи в изгнании, Тор научился смирению, влюбился в доктора Джейн Фостер и спас своих новых друзей от разрушительной угрозы, посланной его завистливым сводным братом Локи, мечтающим захватить трон Асгарда. Тор смог остановить Локи, в результате чего был прощен Одином и получил свою силу назад.">
+                
+            </Label>
+            <Button Text="Подробнее..." x:Name="thorBut" Clicked="thorBut_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
